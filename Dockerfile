@@ -2,4 +2,4 @@ FROM alpine
 
 WORKDIR /workspace
 
-RUN apk add --no-cache openssh
+RUN apk add --no-cache openssh docker
